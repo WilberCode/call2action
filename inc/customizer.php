@@ -1,6 +1,5 @@
 <?php
  
-
 function ten_customize_register($wp_customize){ 
     // Fundadoras
         $wp_customize -> add_section('frontpage',array(

@@ -103,48 +103,17 @@ add_action( 'after_setup_theme', 'wph_theme_support' );
 
 // Widgets
  
-function wph_front_widgets(){
-    register_sidebar(array(
-        'name' => __('Footer - Contacto'),
-        'id' =>'footer_contact',
-        'description'   => 'Contactos de la empresa',
-        'before_widget' => '<div class="footer-contact">',
-        'after_widget'  => '</div>'  
-	));   
+function wph_front_widgets(){ 
     register_sidebar(array(
         'name' => __('Definición'),
         'id' =>'difinition',
         'description'   => 'Definición de la Empresa',
         'before_widget' => '<div class="difinition-discription  ">',
         'after_widget'  => '</div>',
-        'before_title' => '<h2 class=" font-normal main__title">',
+        'before_title' => '<h2 class="difinition__title font-normal">',
         'after_title'  => '</h2>'  
 	));   
-    register_sidebar(array(
-        'name' => __('Slogan'),
-        'id' =>'slogan',
-        'description'   => 'Imagen de un slogan',
-        'before_widget' => '<div class="slogan-image w-full max-w-6xl m-auto px-6 sm:px-10 ">',
-        'after_widget'  => '</div>',
-        'before_title' => '<h2 class="hidden">',
-        'after_title'  => '</h2>'  
-	));   
-    register_sidebar(array(
-        'name' => __('Clientes'),
-        'id' =>'clients',
-        'description'   => 'Logos de clientes',
-        'before_widget' => '<div class="clients-image w-full max-w-6xl m-auto px-6 sm:px-10 ">',
-        'after_widget'  => '</div>',
-        'before_title' => '<h2 class=" mt-8 mb-10 sm:mb-20  text-xl sm:text-4xl text-center">',
-        'after_title'  => '</h2>'  
-	));   
-    // register_sidebar(array(
-    //     'name' => __('Fundadores'),
-    //     'id' =>'advisory',
-    //     'description'   => 'Información de Bio',
-    //     'before_widget' => '<div class="footer-contact">',
-    //     'after_widget'  => '</div>'  
-	// ));   
+    
   
 }
 add_action('widgets_init', 'wph_front_widgets');
