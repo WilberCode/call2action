@@ -4,13 +4,13 @@
 <!-- Site header markup goes here -->
 <header class=" bg-white header shadow "> 
     <div class="header-wrap container m-auto flex h-26 sm:h-32 md:h-48 justify-between ">
-       <div class="relative  z-40 pl-6 lg:pl-12" >   
+       <div class="relative  z-40 pl-2 sm:pl-6 lg:pl-16" >   
             <?php 
                 $custom_logo_id = get_theme_mod( 'custom_logo' );
                 $logo = wp_get_attachment_image_src( $custom_logo_id , 'full' );?>
                     <?php if ( has_custom_logo() ) { ?> 
                 <a class="logo__url" href="<?php echo home_url();?>" rel="home">
-                    <img id=" " class=" w-32 md:w-auto " src="<?php echo esc_url( $logo[0]);?>" alt="<?php bloginfo('name'); ?>" >
+                    <img id=" " class="w-26 sm:w-32 md:w-auto " src="<?php echo esc_url( $logo[0]);?>" alt="<?php bloginfo('name'); ?>" >
                 </a> 
                     <?php }else{?>
                 <a class="logo__title" href="<?php echo home_url();?>" rel="home">

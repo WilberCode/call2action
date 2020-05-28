@@ -7,10 +7,14 @@
         &>.menu-item, & > li{
               @apply block ml-4 ;
               @screen maxsm {
-                @apply ml-3 mr-3 ;
+                @apply ml-1 mr-1 ;
               }
               a{
                 @apply text-black py-2 px-6  text-lg font-bold;
+
+                @screen maxsm {
+                  @apply  px-2 text-base;
+                }
               } 
         } 
     }
