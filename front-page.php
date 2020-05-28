@@ -1,3 +1,7 @@
+<?php  /*
+ * Template Name: Home
+ * Template Post Type: post, page, whatever
+ */?>
 <!-- Header -->
 <?php get_header();?>
 <!-- Banner -->

@@ -7,7 +7,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title><?= wp_get_document_title() ?></title>
     <script>document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/, 'js');</script>
+    <meta name="keywords" content="call2action, Grupo Tendenze Comunicaciones, Asesoría, Packs Online, Diseños, 
+    Tendencias,Cambios, marketing, publicidad,Creativas y digitales,Pack Nuevos Negocios,
+    Pack Negocio Digital, Pack Registros & Leads, Pack Redes Sociales, Video Redes Sociales, Diseños off & online"> 
     <?php wp_head() ?>    
 
 </head>
-<body <?php body_class() ?>   >
+<body <?php body_class() ?> >
