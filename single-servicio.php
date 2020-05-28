@@ -1,7 +1,7 @@
 <?php get_header(); ?>   
 <div class="service pt-10 px-4 lg:px-0" >  
    <div class="max-w-5xl m-auto">
-       <div class="flex flex-col-reverse sm:grid grid-cols-3  col-gap-10 ">
+       <div class="flex flex-col-reverse sm:grid grid-cols-3 col-gap-10 lg:col-gap-14 ">
             <aside class="aside mt-8 sm:mt-0 ">
                 <?php
                 // Query post services
@@ -23,7 +23,7 @@
                     rewind_posts();  ?>    
                     <!-- End While post type services --> 
             </aside>
-           <main class="service-main col-span-2 ">  
+           <main class="service-main col-span-2 lg:ml-4 ">  
                 <?php if(have_posts()):
                                 while(have_posts()):  
                                     the_post(); ?>

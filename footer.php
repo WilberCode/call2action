@@ -2,7 +2,7 @@
  
 <?php //get_template_part( 'templates/partials/document-close' );?>
 
-<footer  class="footer bg-white " >
+<footer  class="footer bg-white <?php if(is_front_page()){echo '';}else{ echo 'mt-10'; } ?> " >
     <div class="container m-auto">    
         <div  class="flex  justify-center sm:justify-end py-14  ">
             <?php  

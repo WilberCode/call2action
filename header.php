@@ -4,7 +4,7 @@
 <!-- Site header markup goes here -->
 <header class=" bg-white header shadow "> 
     <div class="header-wrap container m-auto flex h-26 sm:h-32 md:h-48 justify-between ">
-       <div class="relative  z-40 " >   
+       <div class="relative  z-40 pl-6 lg:pl-12" >   
             <?php 
                 $custom_logo_id = get_theme_mod( 'custom_logo' );
                 $logo = wp_get_attachment_image_src( $custom_logo_id , 'full' );?>

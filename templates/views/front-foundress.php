@@ -20,7 +20,7 @@ Directora Creativa</h3>
             </div>
         </div>
         <div>
-            <p id="foundress__bio"  class=" foundress__bio text-center max-w-5xl font-medium m-auto mt-8 text-secondary-500 text-base sm:text-lg " > 
+            <p id="foundress__bio"  class=" foundress__bio text-center font-medium m-auto mt-8 text-secondary-500 text-base" > 
                   <?php echo get_theme_mod("bio_description"); ?>
              </p>
         </div>

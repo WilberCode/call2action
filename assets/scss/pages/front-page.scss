@@ -102,6 +102,11 @@
          }
     }
     &__bio{
+        font-size: 1.09rem;
+        @screen maxlg { 
+            @apply text-base;
+
+       }
         b{
             @apply text-black;
         }

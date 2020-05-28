@@ -12,4 +12,7 @@ $secondary:#231F20;
 
 .container{
 @apply m-auto;
+    @screen maxsm{
+        @apply pl-6 pr-6;
+    }
 }

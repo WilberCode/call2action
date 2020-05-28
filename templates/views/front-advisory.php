@@ -1,12 +1,12 @@
 <div class="advisory mt-15 sm:mt-16 bg-secondary-600 " id="advisory">
     <div class="container">
-        <div class="md:flex py-12 w-full">
-            <div class=" w-full md:w-1/2 " >
+        <div class=" block md:grid grid-cols-2 py-12 w-full">
+            <div class="mb-12 md:mb-0" >
               <img class=" w-52 sm:w-full  sm:max-w-md md:pl-3 md:pr-5" src="<?php echo get_theme_mod("asesoria_image"); ?>" alt="Tu marca ¿Tiene una propuesta
 de valor para el nuevo mundo?" title="Tu marca ¿Tiene una propuesta
 de valor para el nuevo mundo?" >
             </div>
-            <div class=" w-full md:w-1/2 mt-8 md:mt-0">
+            <div class=" lg:-ml-3 ">
                 <span  class=" text-lg sm:text-xl font-bold text-white " >Asesoría</span>
                 <h2  class=" text-2xl sm:text-4xl font-normal text-primary-500 " >Brand Journey</h2>
                 <h3 class="text-lg  sm:text-xl font-semibold mt-3 leading-6 text-white " >Tu marca ¿Tiene una propuesta <br>
