@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" class="no-js">
+<html lang="ES" class="no-js">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"

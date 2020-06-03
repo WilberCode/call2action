@@ -19,7 +19,7 @@ para encontrar la esencia de la marca. <br>
                 la categoría, la competencia y las motivaciones del consumidor identificamos el rol que tu marca debe cumplir para desarrollar relaciones
                 sólidas y auténticas con el consumidor.
                 </p>
-                <a target="_blank" href="<?php echo get_theme_mod("asesoria_url"); ?>"  class=" inline-block mt-5 py-2 px-8 text-white  border-0 bg-primary-500 font-bold   tracking-widest " >me interesa</a>
+                <a href="<?php echo get_theme_mod("asesoria_url"); ?>"  class=" inline-block mt-5 py-2 px-8 text-white  border-0 bg-primary-500 font-bold   tracking-widest " >me interesa</a>
             </div>
         </div>
     </div>
