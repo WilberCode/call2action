@@ -10,7 +10,8 @@
     <meta name="keywords" content="call2action, Grupo Tendenze Comunicaciones, Asesoría, Packs Online, Diseños, 
     Tendencias,Cambios, marketing, publicidad,Creativas y digitales,Pack Nuevos Negocios,
     Pack Negocio Digital, Pack Registros & Leads, Pack Redes Sociales, Video Redes Sociales, Diseños off & online"> 
-    <?php wp_head() ?>    
+    <?php wp_head() ?> 
+
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-185373616-1"></script>
     <script>
@@ -20,6 +21,8 @@
 
     gtag('config', 'UA-185373616-1');
     </script>
+
+  
 
 </head>
 <body <?php body_class() ?> >
