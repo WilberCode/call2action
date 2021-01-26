@@ -10,7 +10,7 @@
                 $logo = wp_get_attachment_image_src( $custom_logo_id , 'full' );?>
                     <?php if ( has_custom_logo() ) { ?> 
                 <a class="logo__url" href="<?php echo home_url();?>" rel="home">
-                    <img id=" " class="w-26 sm:w-32 md:w-auto " src="<?php echo esc_url( $logo[0]);?>" alt="<?php bloginfo('name'); ?>" >
+                    <img   class="w-26 sm:w-32 md:w-auto " src="<?php echo esc_url( $logo[0]);?>" alt="<?php bloginfo('name'); ?> " title="<?php bloginfo('name'); ?> >
                 </a> 
                     <?php }else{?>
                 <a class="logo__title" href="<?php echo home_url();?>" rel="home">
