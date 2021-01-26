@@ -9,7 +9,8 @@
     <script>document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/, 'js');</script>
     <meta name="keywords" content="call2action, Grupo Tendenze Comunicaciones, Asesoría, Packs Online, Diseños, 
     Tendencias,Cambios, marketing, publicidad,Creativas y digitales,Pack Nuevos Negocios,
-    Pack Negocio Digital, Pack Registros & Leads, Pack Redes Sociales, Video Redes Sociales, Diseños off & online"> 
+    Pack Negocio Digital, Pack Registros & Leads, Pack Redes Sociales, Video Redes Sociales, Diseños off & online">
+    <meta name="google-site-verification" content="kit0Z1mwm7LwCbahr1dQjIi-yPQXsEpmMYOXcHo9wWc" /> 
     <?php wp_head() ?> 
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
