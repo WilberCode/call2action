@@ -13,8 +13,8 @@
             $the_query = new WP_Query( $args );  
             if( $the_query->have_posts() ): 
                 while( $the_query->have_posts() ) :$the_query->the_post(); ?>   
-                    <a class="card" href="<?php the_permalink(); ?>" id="<?php echo get_the_ID(); ?>" >
-                        <img class="w-full flex-1" src="<?php echo thumbnail_image_url('full'); ?>" alt="<?php the_title(); ?>">
+                    <a class="card" href="<?php the_permalink(); ?>" id="<?php echo get_the_ID(); ?>" title="<?php the_title(); ?>" >
+                        <img class="w-full flex-1" src="<?php echo thumbnail_image_url('full'); ?>" alt="<?php the_title(); ?> " title="<?php the_title(); ?>" >
                         <div class="card-body">  
                             <h1  class="card__title"><?php the_title();  ?></h1>
         
