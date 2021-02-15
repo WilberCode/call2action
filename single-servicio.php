@@ -1,5 +1,5 @@
 <?php get_header(); ?>   
-<div class="service pt-10 px-4 lg:px-0" >  
+<div class="service pt-10 px-4 xl:px-0" >  
    <div class="max-w-5xl m-auto">
        <div class="flex flex-col-reverse sm:grid grid-cols-3 col-gap-10 lg:col-gap-14 ">
             <aside class="aside mt-8 sm:mt-0 ">
