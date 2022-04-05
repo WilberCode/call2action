@@ -32,7 +32,8 @@
              }
         }
         .wp-block-button__link{
-            @apply bg-primary-500 text-center tracking-widest w-full text-white font-semibold text-base py-5 px-4 rounded-full inline-block ;
+            @apply text-center tracking-widest w-full text-white font-semibold text-base py-5 px-4 rounded-full inline-block ;
+            @apply bg-primary-500 #{!important};
             max-width: 380px;
             @screen maxsm{
               @apply py-4 px-4;
